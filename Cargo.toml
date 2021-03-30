@@ -1,0 +1,13 @@
+[package]
+name = "rust-alloc-test"
+version = "0.1.0"
+authors = ["Evan Chan <velvia@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+jemalloc-ctl = "0.3.3"
+jemallocator = "0.3"
+nested = "0.1"
+deepsize = "0.2.0"
