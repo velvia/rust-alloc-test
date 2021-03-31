@@ -11,3 +11,8 @@ jemalloc-ctl = "0.3.3"
 jemallocator = "0.3"
 nested = "0.1"
 deepsize = "0.2.0"
+serde_json = "1.0"
+dhat = "0.2"
+
+[profile.release]
+debug = 1
